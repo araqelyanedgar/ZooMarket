@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99042FB3283D4E5400B3F02D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99042FB2283D4E5400B3F02D /* HomeViewController.swift */; };
+		99042FB6283D507D00B3F02D /* FavouritesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99042FB5283D507D00B3F02D /* FavouritesCoordinator.swift */; };
+		99042FB8283D508A00B3F02D /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99042FB7283D508A00B3F02D /* FavouritesViewController.swift */; };
+		99042FBB283D6F9200B3F02D /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99042FBA283D6F9200B3F02D /* SettingsCoordinator.swift */; };
+		99042FBD283D70B100B3F02D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99042FBC283D70B100B3F02D /* SettingsViewController.swift */; };
 		998A6248283D398A00374D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A6247283D398A00374D0C /* AppDelegate.swift */; };
 		998A624A283D398A00374D0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A6249283D398A00374D0C /* SceneDelegate.swift */; };
-		998A624C283D398A00374D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A624B283D398A00374D0C /* ViewController.swift */; };
-		998A624F283D398A00374D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998A624D283D398A00374D0C /* Main.storyboard */; };
 		998A6251283D398A00374D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998A6250283D398A00374D0C /* Assets.xcassets */; };
 		998A6254283D398A00374D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998A6252283D398A00374D0C /* LaunchScreen.storyboard */; };
+		998A625C283D4A0B00374D0C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A625B283D4A0B00374D0C /* MainTabBarController.swift */; };
+		998A6260283D4C4800374D0C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998A625F283D4C4800374D0C /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99042FB2283D4E5400B3F02D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		99042FB5283D507D00B3F02D /* FavouritesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesCoordinator.swift; sourceTree = "<group>"; };
+		99042FB7283D508A00B3F02D /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		99042FBA283D6F9200B3F02D /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		99042FBC283D70B100B3F02D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		998A6244283D398A00374D0C /* ZooMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		998A6247283D398A00374D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		998A6249283D398A00374D0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		998A624B283D398A00374D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		998A624E283D398A00374D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		998A6250283D398A00374D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998A6253283D398A00374D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998A6255283D398A00374D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		998A625B283D4A0B00374D0C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		998A625F283D4C4800374D0C /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99042FB4283D506400B3F02D /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				99042FB5283D507D00B3F02D /* FavouritesCoordinator.swift */,
+				99042FB7283D508A00B3F02D /* FavouritesViewController.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		99042FB9283D6F7100B3F02D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				99042FBA283D6F9200B3F02D /* SettingsCoordinator.swift */,
+				99042FBC283D70B100B3F02D /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		998A623B283D398A00374D0C = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +86,32 @@
 			children = (
 				998A6247283D398A00374D0C /* AppDelegate.swift */,
 				998A6249283D398A00374D0C /* SceneDelegate.swift */,
-				998A624B283D398A00374D0C /* ViewController.swift */,
-				998A624D283D398A00374D0C /* Main.storyboard */,
+				998A625B283D4A0B00374D0C /* MainTabBarController.swift */,
+				998A625D283D4BB400374D0C /* Scenes */,
 				998A6250283D398A00374D0C /* Assets.xcassets */,
 				998A6252283D398A00374D0C /* LaunchScreen.storyboard */,
 				998A6255283D398A00374D0C /* Info.plist */,
 			);
 			path = ZooMarket;
+			sourceTree = "<group>";
+		};
+		998A625D283D4BB400374D0C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				99042FB9283D6F7100B3F02D /* Settings */,
+				99042FB4283D506400B3F02D /* Favourites */,
+				998A625E283D4C0600374D0C /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		998A625E283D4C0600374D0C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				998A625F283D4C4800374D0C /* HomeCoordinator.swift */,
+				99042FB2283D4E5400B3F02D /* HomeViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +174,6 @@
 			files = (
 				998A6254283D398A00374D0C /* LaunchScreen.storyboard in Resources */,
 				998A6251283D398A00374D0C /* Assets.xcassets in Resources */,
-				998A624F283D398A00374D0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				998A624C283D398A00374D0C /* ViewController.swift in Sources */,
+				99042FB3283D4E5400B3F02D /* HomeViewController.swift in Sources */,
+				99042FBB283D6F9200B3F02D /* SettingsCoordinator.swift in Sources */,
 				998A6248283D398A00374D0C /* AppDelegate.swift in Sources */,
+				99042FB6283D507D00B3F02D /* FavouritesCoordinator.swift in Sources */,
+				998A6260283D4C4800374D0C /* HomeCoordinator.swift in Sources */,
+				998A625C283D4A0B00374D0C /* MainTabBarController.swift in Sources */,
+				99042FB8283D508A00B3F02D /* FavouritesViewController.swift in Sources */,
 				998A624A283D398A00374D0C /* SceneDelegate.swift in Sources */,
+				99042FBD283D70B100B3F02D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		998A624D283D398A00374D0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				998A624E283D398A00374D0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		998A6252283D398A00374D0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +335,6 @@
 				INFOPLIST_FILE = ZooMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -319,7 +362,6 @@
 				INFOPLIST_FILE = ZooMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
